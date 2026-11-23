@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+export default { content: ['./index.html','./src/**/*.{js,jsx,ts,tsx}'], theme: { extend: { colors: { 'ivory-paper':'#FAF5EB','sandstone-soft':'#F2E7D5','kumkum-deep':'#7A1C1C','rosewood-dark':'#2B1410','gold-antique':'#C59B43','gold-shimmer':'#E6C77A','marigold-warm':'#D97724','charcoal-ink':'#261C1A','muted-umber':'#6E5A52' }, fontFamily: { display:['Cormorant Garamond','serif'], sans:['Plus Jakarta Sans','sans-serif'], hindi:['Tiro Devanagari Hindi','serif'], hindiSans:['Noto Sans Devanagari','sans-serif'] } } }, plugins: [] };
